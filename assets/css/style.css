@@ -348,6 +348,20 @@ main {
   margin-left: 0.5em;
 }
 
+#coming-soon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: var(--clr-bg);
+  box-shadow: var(--shadow);
+}
+
+#coming-soon h1 {
+  padding: 30px;
+}
+
 #skills {
   transition: all 0.4s;
   background: none;
