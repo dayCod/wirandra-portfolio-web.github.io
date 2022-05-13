@@ -32,16 +32,19 @@ body {
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-primary: #c9469d;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #262935;
+  --clr-bg-alt: #272a3a;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-primary: #d990d9;
+  --clr-secondary: rgb(137, 91, 175);
+  --clr-figure-one: rgb(184, 109, 115);
+  --clr-figure-two: rgb(119, 194, 123);
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -324,6 +327,7 @@ main {
 
 .project__description {
   margin-top: 1em;
+  padding: 0 10px 0 10px;
 }
 
 .project__stack {
